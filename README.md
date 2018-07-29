@@ -10,3 +10,5 @@ An example for create a CRUD app for course entity
 -Twitter Boostrap
 
 -Thymeleaf
+
+-Custom error page
