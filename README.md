@@ -12,3 +12,5 @@ An example for create a CRUD app for course entity
 -Thymeleaf
 
 -Custom error page
+https://www.logicbig.com/tutorials/spring-framework/spring-boot/custom-thymeleaf-error-page.html
+
