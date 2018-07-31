@@ -1,4 +1,4 @@
-package com.daironh.backendninja.demo;
+package com.daironh.backendninja;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
