@@ -1,5 +1,7 @@
 package com.daironh.backendninja.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,6 +24,11 @@ public class ContactService {
 		Contact contact = contactConverter.convertModelToEntity(contactModel);
 
 		contactRepository.save(contact);
+	}
+
+	public List<Contact> findAll() {
+		// TODO Auto-generated method stub
+		return contactRepository.findAll();
 	}
 
 }
